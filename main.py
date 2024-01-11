@@ -15,7 +15,7 @@ core_functions.check_openai_version()
 app = Flask(__name__)
 
 # Initialize OpenAI client
-OPENAI_API_KEY = 'api_key'
+OPENAI_API_KEY = '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'
 if not OPENAI_API_KEY:
   raise ValueError("No OpenAI API key found in environment variables")
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
